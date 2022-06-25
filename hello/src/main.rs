@@ -1,6 +1,6 @@
 pub mod hello;
 
 fn main() {
-    let name: String = "Chris".to_string();
-    println!("{}", hello::hello(&name));
+    let mut name: String = "Chris".to_string();
+    println!("{}", hello::hello(&mut name));
 }
